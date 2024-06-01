@@ -1,0 +1,47 @@
+.custom-navbar {
+  background-color: #292542; /* Example: Dark background */
+  /* position: fixed; 
+  top: 0;       Start at the top */
+  /* left: 0;
+  width: 100%;
+  transition: transform 0.3s ease; 
+  transform: translateY(-100%);  */
+}
+
+
+.custom-navbar.scrolled {
+  transform: translateY(0); /* Slide down navbar into view */
+}
+
+.custom-navbar .navbar-brand img {
+  height: 50px; /* Adjust logo height */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s ease; 
+}
+
+.custom-navbar .navbar-nav .nav-link:hover,
+.custom-navbar .navbar-nav .dropdown-item:hover {
+  color: #ffcc00; /* Example: Yellow hover color */
+}
+
+.social-links .nav-link {
+  padding: 0 10px; /* Adjust spacing between icons */
+}
+
+/* Mobile Menu Styling */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    /* background-color: #d6ecaf; /* Match navbar background */
+     /* background-color: #e2f7d4; */
+    background: linear-gradient(to bottom, #d6ecaf, #e2f7d4); 
+  }
+  .navbar-nav .nav-link {
+    text-align: center;
+    padding: 10px 0;
+  }
+} 

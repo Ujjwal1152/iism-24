@@ -1,0 +1,20 @@
+/* ... other styles ... */
+.about-section{
+  padding-top: 20px;
+}
+
+.section-title {
+  padding-bottom: 15px;
+}
+
+.widget-container{
+  padding-top: 30px;
+}
+.widget-card {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.widget-card:hover {
+  transform: scale(1.1); /* Magnify the card on hover */
+}

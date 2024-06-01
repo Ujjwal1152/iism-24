@@ -1,0 +1,25 @@
+/* mascot.css */
+.align-items-center{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.mascot-description h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mascot-description p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+    .mascot-description h2 {
+        font-size: 20px;
+    }
+
+    .mascot-description p {
+        font-size: 14px;
+    }
+}

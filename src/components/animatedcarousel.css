@@ -1,0 +1,46 @@
+/* Main Carousel Container */
+.EmotionalLead-styles__Carousel-sc-660aa9d6-0 {
+  position: relative; 
+  padding-top: 75px;
+}
+
+/* Hide Scrollbars */
+.indiana-scroll-container--hide-scrollbars {
+  overflow: hidden; /* Hide scrollbar */
+}
+
+/* Carousel Items (Slides) */
+.EmotionalLead-styles__Item-sc-660aa9d6-1 { 
+  display: none; /* Hide all slides by default */
+  position: relative; /* For absolute positioning of content */
+  height: 600px; /* Adjust slide height as needed */
+  background-size: cover;
+  background-position: center;
+  transition: opacity 2s ease-in-out; /* Smooth transition for fading */
+}
+
+/* Active Slide */
+.EmotionalLead-styles__Item-sc-660aa9d6-1.active {
+  display: block; /* Show the active slide */
+  opacity: 1; /* Fully opaque when active */
+}
+
+/* Content Wrapper within Slide */
+.EmotionalLead-styles__ItemGrid-sc-660aa9d6-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(15, 14, 14); /* Example text color */
+}
+
+.bKdqCh {
+  overflow: hidden;
+
+}
+/* Title Styling */
+.EmotionalLeadItem-styles__Title-sc-a04a156c-1 {
+  font-size: 6em; /* Adjust title font size as needed */
+}
+
+/* ... (Rest of your CSS for Navigation, Buttons, etc.) */

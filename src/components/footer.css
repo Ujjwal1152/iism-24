@@ -1,0 +1,50 @@
+.footer {
+    background-color: #292542; /* Dark background for footer */
+    color: white;
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center content horizontally */
+    width: 100%;
+    position: relative; /* Fix the footer to the bottom of the page */
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute sections */
+    align-items: center; /* Vertically align items */
+    max-width: 1200px;  /* Limit container width for better layout */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+  
+  .app-download img {
+    height: 40px; /* Adjust the size of the Play Store button */
+    cursor: pointer;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px; /* Space between social icons */
+    font-size: 1.5em; 
+    transition: transform 0.2s ease; /* Smooth hover transition */
+  }
+  
+  .social-links a:hover {
+    transform: translateY(-3px); /* Slight lift on hover */
+  }
+  
+  .contact-button {
+    background-color: transparent; 
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .contact-button:hover {
+    background-color: white;
+    color: #333; 
+  }

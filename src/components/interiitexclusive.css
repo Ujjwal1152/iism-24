@@ -1,0 +1,17 @@
+.inter-iit-exclusive {
+    background-color: #f8f8f8; 
+    padding: 30px; 
+    margin: 20px auto; 
+    text-align: center; 
+  }
+  
+  .section-heading {
+    margin-bottom: 20px;
+  }
+  
+  .instagram-feed {
+    display: flex; /* Arrange posts in a row */
+    flex-wrap: wrap; /* Allow wrapping to multiple rows */
+    justify-content: center;
+    gap: 15px; /* Space between posts */
+  }

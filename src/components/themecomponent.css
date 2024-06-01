@@ -1,0 +1,94 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.theme-container {
+  padding: 2rem;
+}
+
+.theme-header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+
+.animated-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  position: relative;
+}
+
+.animated-heading span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fade-out {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-out.fade {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.fade-in.fade {
+  opacity: 1;
+}
+
+.theme-paragraph {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  font-size: 18px;
+  transform: translateY(100px);
+  transition: opacity 1s, transform 1s;
+}
+
+p.theme-paragraph{
+  font-size: 20px;
+}
+
+.theme-paragraph.slide-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-stack {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.stacked-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: swapImage 12s infinite;
+}
+
+.stacked-image:nth-child(2) {
+  animation-delay: 4s;
+}
+
+.stacked-image:nth-child(3) {
+  animation-delay: 8s;
+}
+
+@keyframes swapImage {
+  0%, 33.33% {
+    opacity: 1;
+  }
+  33.34%, 100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.leadership-team {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1.leadership-team {
+  margin-top: 120px;
+}
+
+h1.leadership-team {
+  margin-top: 120px;
+}
+
+.justify-content-center-2.row {
+  margin-top: 180px;
+}
+
+h1.events-head {
+  margin-top: 25px;
+}
+
+p.imagedescription {
+  margin-top: 10px;
+  font-size: small;
+}
+
+.imagename {
+  margin-top: 120px;
+}

@@ -1,0 +1,85 @@
+/* ... other styles ... */
+
+.gallery-container {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.carousel-cards {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 80%;
+    width: 100%;
+}
+
+.carousel-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    font-family: open sans;
+    height: 300px;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px 20px auto;
+    text-align: left;
+    width: calc(25% - 20px);
+}
+
+  .section-heading.text-center.mb-4 {
+    font-family: 'roboto';
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+  .section-heading {
+    padding-bottom: 15px;
+  }
+  
+  .carousel-inner {
+    padding-top: 15px;
+  }
+  
+  
+  .card-image {
+    border-radius: 5px 5px 0 0;
+    height: auto;
+    height: 150px;
+    margin: 20px auto;
+    object-fit: cover;
+    object-fit: contain;
+    width: 100%;
+    width: 150px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+  
+  .iit-widget .card-body {
+    flex-grow: 1; /* Allow the body to grow to fill the remaining space */
+    padding: 8px; /* Reduce padding to minimize space */
+  }
+  
+  .coursel-card:hover {
+    transform: scale(1.1); /* Magnify the card on hover */
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}

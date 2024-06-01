@@ -1,0 +1,31 @@
+/* Header Wrapper */
+.header-wrapper { 
+    position: relative; 
+  }
+  
+  /* Custom Navbar Styles */
+  .custom-navbar {
+    background-color: #171c28; 
+    position: fixed; 
+    top: 0;      /*  Start at the top */
+    left: 0;
+    width: 100%;
+    transition: transform 0.1s ease; 
+    transform: translateY(-100%);  /* Initially hide the navbar */
+
+  }
+
+  /* Show Navbar on Scroll */
+  .header-wrapper.scrolled .custom-navbar { 
+    transform: translateY(0); /* Slide down navbar into view */
+  }
+  
+  /* ... your other custom navbar styles  */
+  
+  /* Carousel Styles - No Major Changes Here */ 
+  .EmotionalLead-styles__Carousel-sc-660aa9d6-0 {
+    position: relative; 
+    /* Remove any previous padding-top or margin-top from earlier solutions */
+  }
+  
+  /* ... (Your other existing carousel styles) */

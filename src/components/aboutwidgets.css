@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-us {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  .heading {
+    font-family:'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    height: 510px;
+  }
+  
+  .left {
+    order: 1;
+  }
+  
+  .right {
+    order: 2;
+  }
+  
+  .theme-text {
+    flex: 1;
+    background: linear-gradient(to right, #2f2268, #8560b5);
+    color: white;
+    
+    height: 510px;
+    width: 80%;
+    position: relative;
+  }
+
+  .history-text {
+    flex: 1;
+    background: linear-gradient(to right, #2f2268, #8560b5);
+    color: white;
+    
+    height: 510px;
+    width: 80%;
+    position: relative;
+  }
+
+  .sports-text {
+    flex: 1;
+    background: linear-gradient(to right, #2f2268, #8560b5);
+    color: white;
+    
+    height: 510px;
+    width: 80%;
+    position: relative;
+  }
+
+  .mascot-text {
+    flex: 1;
+    background: linear-gradient(to right, #2f2268, #8560b5);
+    color: white;
+    
+    height: 510px;
+    width: 80%;
+    position: relative;
+  }
+
+  .stripe-1,.stripe-2{
+    position:absolute;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, #8560b5,#2f2268 );
+    margin: 0;
+  }
+  .stripe-1{
+    bottom: 0px;
+  }
+  .stripe-2{
+    bottom: 40px;
+  }
+  p{ 
+    margin: 40px 20px 0px 40px;
+    font-weight: bold;
+    font-size:x-large;
+  }
