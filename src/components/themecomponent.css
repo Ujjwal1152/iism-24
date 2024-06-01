@@ -62,7 +62,7 @@ p.theme-paragraph{
   transform: translateY(0);
 }
 
-.image-stack {
+.image-stack.mainpage {
   position: relative;
   width: 100%;
   height: 300px;
