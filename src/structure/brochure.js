@@ -1,14 +1,14 @@
 import MyNavbar from "../components/navbar";
 import Footer from "../components/footer";
-import GameCelebration from "../components/aboutuspage";
-import AboutUs from "../components/aboutwidgets";
+import ImageSlider from "../components/brochure";
+import Heading from "../components/brochureheading";
 
 function Brochure() {
     return (
       <div>
           <MyNavbar/>
-          <GameCelebration/>
-          {/* <AboutUs/> */}
+          <ImageSlider/>
+          {/* <Heading/> */}
           <Footer/> 
       </div>
     );
