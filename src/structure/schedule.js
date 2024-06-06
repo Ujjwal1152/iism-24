@@ -1,7 +1,6 @@
 import MyNavbar from "../components/navbar";
 import Footer from "../components/footer";
 import GameCelebration from "../components/aboutuspage";
-import AboutUs from "../components/aboutwidgets";
 import SportsSchedule from "../components/sportscards";
 
 function Schedule() {
@@ -9,9 +8,8 @@ function Schedule() {
       <div>
           <MyNavbar/>
           <GameCelebration/>
-          <SportsSchedule/>
-          {/* <AboutUs/> */}
-          <Footer/> 
+          <SportsSchedule/> 
+          <Footer/>
       </div>
     );
   }

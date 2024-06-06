@@ -1,18 +1,36 @@
 import React, { useState } from 'react';
-import './navbar.css';
+import './HomeNav.css';
 import interiitLogo from './images/redlogo.jpg'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitter, faYoutube, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
+import { useEffect } from 'react';
 
 const MyNavbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  useEffect(() => {
+    const primaryHeader = document.querySelector(".custom-navbar");
+    const scrollWatcher = document.createElement("div");
+  
+    scrollWatcher.setAttribute("data-scroll-watcher", "");
+    primaryHeader.before(scrollWatcher);
+  
+    const navObserver = new IntersectionObserver(
+        (entries) => {
+        primaryHeader.classList.toggle("sticking", !entries[0].isIntersecting);
+        },
+        { rootMargin: "300px 0px 0px 0px" }
+    );
+  
+    navObserver.observe(scrollWatcher);
+    }, []);
+
   return (
-    <Navbar expand="lg" variant="dark" fixed="top" className= "custom-navbar-other" >
+    <Navbar expand="lg" variant="dark" fixed="top" className= "custom-navbar" >
       <Container>
-        <Navbar.Brand as={Link} to="/"> {/* Make the logo a Link */}
+        <Navbar.Brand as={Link} to="/"> {/* Link to home page */}
           <img src={interiitLogo} alt="InterIIT Logo" height="40" /> 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} />
