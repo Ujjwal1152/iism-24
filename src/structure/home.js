@@ -18,12 +18,15 @@ import ParallaxAwe from '../components/parallaxawe';
 import ParallaxInspire from '../components/parallaxinspire';
 import ParallaxBuffer from '../components/parallaxbuffer';
 import ParallaxConquer from '../components/parallaxconquer';
+import MyNavbar from '../components/HomeNav';
+import Main from '../components/videoloader';
 
 
 function Home() {
   return (
     <div>
-        <Loadpage/>
+        <MyNavbar/>
+        <Main/>
         <AboutUs/>
         <ParallaxHome/>
         <AboutTheGames/>

@@ -20,7 +20,7 @@
 } */
 
 .custom-navbar.sticking {
-    --_bg: #333;
+    --_bg: #212A31;
     --_logo-color: #fff;
     --_nav-link-color: #f00;
   }
@@ -59,9 +59,10 @@
   } 
   
   
-  .custom-navbar .navbar-nav .nav-link {
+  .custom-navbar .navbar-nav .nav-link,
+  .custom-navbar.sticking .navbar-nav .nav-link{
     color: #fff;
     font-weight: 500;
-    margin-left: 0px;
+    margin-left: 10px;
     transition: color 0.3s ease;
   }
