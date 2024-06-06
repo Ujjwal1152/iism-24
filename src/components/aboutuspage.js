@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import tempbg from './images/aboutus2.jpg'
+import tempbg from './images/moon-4919501_1280.jpg'
 
 function GameCelebration() {
   return (
@@ -32,15 +32,16 @@ function GameCelebration() {
         }}
       >
         <Container>
-          <Row className="justify-content-center">
-            <Col xs={12} md={8}>
+          <Row className="PageHeading">
+            <Col xs={12} md={12}>
               <h1
                 style={{
+                  paddingTop: '70vh',
                   fontFamily: 'Olympic Sans',
                   fontSize: '4rem',
                   fontWeight: 'bold',
-                  fontStyle: 'italic',
                   textAlign: 'center',
+                  fontStyle: 'italic',
                   color: 'white',
                 }}
               >
