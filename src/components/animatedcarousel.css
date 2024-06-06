@@ -4,9 +4,93 @@
   padding-top: 75px;
 }
 
+/* Carousel Container with Hidden Scrollbars */
+.indiana-scroll-container {
+  overflow: hidden; /* Hide scrollbar */
+}
+
 /* Hide Scrollbars */
 .indiana-scroll-container--hide-scrollbars {
   overflow: hidden; /* Hide scrollbar */
+}
+
+.Navigation-styles__Navigation-sc-f03d7706-5.cKPcQi {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+/* Carousel Navigation */
+.EmotionalLead-styles__Nav-sc-660aa9d6-3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+/* Navigation Buttons */
+.EmotionalLead-styles__Button-sc-660aa9d6-4 {
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  color: rgb(15, 14, 14); /* Example text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.5em; /* Adjust button font size as needed */
+}
+
+/* Navigation Button Hover Effect */
+.EmotionalLead-styles__Button-sc-660aa9d6-4:hover {
+  background: rgba(255, 255, 255, 0.8); /* More opaque white background on hover */
+}
+
+/* Navigation Button Disabled State */
+.EmotionalLead-styles__Button-sc-660aa9d6-4:disabled {
+  opacity: 0.5; /* Semi-transparent when disabled */
+  cursor: not-allowed; /* Disable cursor */
+}
+
+/* Carousel Dots */
+.EmotionalLead-styles__Dots-sc-660aa9d6-5 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Dot Styling */
+.EmotionalLead-styles__Dot-sc-660aa9d6-6 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Active Dot */
+.EmotionalLead-styles__Dot-sc-660aa9d6-6.active {
+  background: rgba(255, 255, 255, 0.8); /* More opaque white background for active dot */
+}
+
+/* Dot Hover Effect */
+.EmotionalLead-styles__Dot-sc-660aa9d6-6:hover {
+  background: rgba(255, 255, 255, 0.8); /* More opaque white background on hover */
+}
+
+/* Dot Disabled State */
+.EmotionalLead-styles__Dot-sc-660aa9d6-6:disabled {
+  opacity: 0.5; /* Semi-transparent when disabled */
+  cursor: not-allowed; /* Disable cursor */
 }
 
 /* Carousel Items (Slides) */
@@ -17,6 +101,23 @@
   background-size: cover;
   background-position: center;
   transition: opacity 2s ease-in-out; /* Smooth transition for fading */
+}
+
+/* Slide Background Image */
+.EmotionalLead-styles__Item-sc-660aa9d6-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Slide Overlay */
+.EmotionalLead-styles__Overlay-sc-660aa9d6-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
 }
 
 /* Active Slide */
