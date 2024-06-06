@@ -1,99 +1,38 @@
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .about-us {
-    max-width: 95%;
-    margin: 0 auto;
-  }
-  
-  .about-section {
-    margin-bottom: 40px;
-  }
-  
-  .heading {
-    font-family:'Roboto';
-    font-size: 40px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .content {
+.directormessage{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.directormessage-body {
     display: flex;
-    align-items: center;
-  }
-  
-  .image {
-    margin: 0;
-    padding: 0;
-    width: 35%;
-    height: 510px;
-  }
-  
-  .left {
-    order: 1;
-  }
-  
-  .right {
-    order: 2;
-  }
-  
-  .theme-text {
-    flex: 1;
-    background: linear-gradient(to right, #2f2268, #8560b5);
-    color: white;
-    
-    height: 510px;
-    width: 80%;
-    position: relative;
-  }
+    margin-bottom: 2vh;
+}
 
-  .history-text {
-    flex: 1;
-    background: linear-gradient(to right, #2f2268, #8560b5);
-    color: white;
-    
-    height: 510px;
-    width: 80%;
-    position: relative;
-  }
+.directormessage-heading {
+    margin-top: 2vh;
+    margin-bottom: 20px;
+    font-family: ubuntu;
+    text-align: center;
+}
 
-  .sports-text {
-    flex: 1;
-    background: linear-gradient(to right, #2f2268, #8560b5);
-    color: white;
-    
-    height: 510px;
-    width: 80%;
-    position: relative;
-  }
+.directormessage-content {
+    font-size: 18px;
+    width: 56%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
-  .mascot-text {
-    flex: 1;
-    background: linear-gradient(to right, #2f2268, #8560b5);
-    color: white;
-    
-    height: 510px;
-    width: 80%;
-    position: relative;
-  }
+.directormessage-image {
+    width: 44%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
-  .stripe-1,.stripe-2{
-    position:absolute;
+.directormessage-image img {
     width: 100%;
-    height: 20px;
-    background: linear-gradient(to right, #8560b5,#2f2268 );
-    margin: 0;
-  }
-  .stripe-1{
-    bottom: 0px;
-  }
-  .stripe-2{
-    bottom: 40px;
-  }
-  p{ 
-    margin: 40px 20px 0px 40px;
-    font-weight: bold;
-    font-size:x-large;
-  }
+    height: auto;
+    border-radius: 10px;
+}

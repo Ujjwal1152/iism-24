@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import MyNavbar from './navbar';
 import EmotionalLeadCarousel from './animatedcarousel';
-
+import Main from './videoloader';
 
 function Loadpage() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +29,7 @@ function Loadpage() {
   return (
     <div className={`header-wrapper ${isScrolled ? 'scrolled' : ''}`}> 
       <MyNavbar/>
-      <EmotionalLeadCarousel/>
+      <Main/>
     </div>
   );
 }

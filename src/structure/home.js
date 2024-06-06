@@ -13,6 +13,11 @@ import AboutUs from '../components/aboutwidgets';
 import MascotSection from '../components/mascot';
 import AboutTheGames from '../components/aboutthegames';
 import Sports from '../components/sports';
+import ParallaxHome from '../components/parallaxhome';
+import ParallaxAwe from '../components/parallaxawe';
+import ParallaxInspire from '../components/parallaxinspire';
+import ParallaxBuffer from '../components/parallaxbuffer';
+import ParallaxConquer from '../components/parallaxconquer';
 
 
 function Home() {
@@ -20,10 +25,15 @@ function Home() {
     <div>
         <Loadpage/>
         <AboutUs/>
+        <ParallaxHome/>
         <AboutTheGames/>
+        <ParallaxAwe/>
         <ThemeComponent/>
+        <ParallaxConquer/>
         <MascotSection/>
+        <ParallaxInspire/>
         <Sports/>
+        <ParallaxBuffer/>
         {/* <AboutSection/> */}
         {/* <InterIITExclusive/> */}
         <Gallery/>
