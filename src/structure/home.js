@@ -40,6 +40,7 @@ function Home() {
         {/* <AboutSection/> */}
         {/* <InterIITExclusive/> */}
         <Gallery/>
+        <ParallaxBuffer/>
         <VideoGallery/>
         <SponsorSection/>
         <Footer/>

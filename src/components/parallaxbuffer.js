@@ -5,7 +5,7 @@ import background from './images/background.jpg'
 function ParallaxBuffer() {
   return (
     <Parallax bgImage={background}   strength={500}>
-      <div style={{ height: "40vh" }}>
+      <div style={{ height: "3vh" }}>
         <h1 style={{ color: "white", textAlign: "center", paddingTop: "25vh" }}>
           
         </h1>

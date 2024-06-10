@@ -16,7 +16,7 @@ const DirectorMessage = () => {
             God bless you all! </p>
         </div>
         <div className="directormessage-image">
-          <Image src="https://source.unsplash.com/800x600/?director" alt="Director" fluid />
+          <Image src="https://cdn.webshopapp.com/shops/268192/files/433182622/tommy-shelby.jpg" alt="Director" fluid />
         </div>
       </div>
       </div>
